@@ -1,3 +1,19 @@
 html {
   background-color: #fffaed;
 }
+h1 {
+  color: black;
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-family: montserrat;
+}
+
+main {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}

@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Img from "gatsby-image"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -12,7 +13,8 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Home" />
+      <Img fluid={data.avatar.childImageSharp.fluid}></Img>
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -65,6 +67,13 @@ export const pageQuery = graphql`
             title
             description
           }
+        }
+      }
+    }
+    avatar: file(absolutePath: { regex: "/CWD_logo_V2.png/" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }

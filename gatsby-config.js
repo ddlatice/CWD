@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Code With Dom`,
+    title: `Code With Dom `,
     author: {
       name: `Dominique L. Duncan`,
-      summary: `I hail from ATL. Right now I'm mainly focused on building useful and attractive projects.`,
+      summary: `I hail from ATL. Right now I'm focused on building attractive projects that I would want to use in my everyday life.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A coding blog for beginners.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `DocObjectModel`,
@@ -50,6 +50,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-image`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
