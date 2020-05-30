@@ -32,8 +32,8 @@ ex:
 **Variable Scope** refers to the current accessibility of your declared variable. 
 
 There are two kinds of Variable Scope:
-* Global Variables: these are variables that you declare OUTSIDE a block of code.
-* Local Variables: these are variables that you declare INSIDE a block of code.
+* Global: variables declared in Global scope are declared OUTSIDE a block of code.
+* Local: variables declared in Local scope are declared INSIDE a block of code.
 
 ...simple enough. let's continue.
 
@@ -42,10 +42,10 @@ These keywords differ based on what scope they can be used in.
 Keywords *let* and *const* can be used in Block Scope.
 Keyword *var* can be used in Function Scope.
 
-Here is the difference between the two types of Scope:
+Some clarity on Function and Block Scope:
 
 * Variables declared in function scope are defined inside a FUNCTION BLOCK.
-a function block is a block of code within a function. These variables are NOT accessible outside of that function scope.
+A function block is a block of code within a function. These variables are NOT accessible outside of that function scope.
 
 * Variables declared in block scope are defined inside of a block of code. these variables only exist within that block of code.
 
