@@ -17,6 +17,7 @@ Primitive types in JavaScript are:
 * Symbol
 
 learn more about primitive types and objects [here:](https://javascript.info/types)
+<br>
 learn more about naming variables [here:](https://javascript.info/variables)
 
 Much of understanding the relationship between variables and scope relies on the term 'Block', which is essentially a block of code 🥰
