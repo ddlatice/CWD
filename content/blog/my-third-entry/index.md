@@ -1,6 +1,6 @@
 ---
 title: JS Variables + Scope. 🔍 
-date: "2020-30-05T23:46:37.121Z"
+date: "2020-05-30T23:46:37.121Z"
 description: "Thou Shalt Know the Fundamentals."
 ---
 
