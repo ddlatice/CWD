@@ -2,13 +2,14 @@ html {
   background-color: #a6a5a5;
 }
 h1 {
-  color: black;
+  color: #e4e2f9;
   text-align: center;
 }
 
 a {
-  color: black;
+  color: white;
   font-family: montserrat;
+  text-decoration: none;
 }
 
 main {
