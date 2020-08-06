@@ -49,6 +49,7 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
+          marginTop: 5,
           minWidth: 50,
           borderRadius: `100%`,
         }}
@@ -56,7 +57,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
+      <p class="bio">
         Hi. I'm <strong>{author.name}</strong>. {author.summary}
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>Connect with me.</a>
