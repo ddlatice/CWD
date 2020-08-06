@@ -57,7 +57,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p class="bio">
+      <p>
         Hi. I'm <strong>{author.name}</strong>. {author.summary}
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>Connect with me.</a>
