@@ -72,7 +72,7 @@ export const pageQuery = graphql`
     }
     avatar: file(absolutePath: { regex: "/CWD_NewLogo.png/" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth: 400, maxHeight: 250) {
           ...GatsbyImageSharpFluid
         }
       }
