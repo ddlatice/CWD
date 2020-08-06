@@ -63,7 +63,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>. Check out my personal
         site {` `}
-        <a href="https://www.instagram.com">here</a>.❤️
+        <a href="https://compassionate-lalande-8ab6f5.netlify.app">here</a>.❤️
       </footer>
     </div>
   )

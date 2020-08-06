@@ -70,7 +70,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    avatar: file(absolutePath: { regex: "/CWD_logo_V2.png/" }) {
+    avatar: file(absolutePath: { regex: "/CWD_NewLogo.png/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

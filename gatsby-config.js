@@ -6,9 +6,9 @@ module.exports = {
       summary: `I hail from ATL. Right now I'm focused on building attractive projects that I would want to use in my everyday life.`,
     },
     description: `A coding blog for beginners.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://www.codewithdom.com/`,
     social: {
-      twitter: `DocObjectModel`,
+      twitter: `https://twitter.com/DocObjectModel`,
     },
   },
   plugins: [
@@ -61,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Code WIth Dom`,
+        short_name: `CWD`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
