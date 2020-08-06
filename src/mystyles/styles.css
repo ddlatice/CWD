@@ -1,15 +1,14 @@
 html {
-  background-color: #a6a5a5;
+  background-color: #e4e3e3;
 }
 h1 {
-  color: #e4e2f9;
+  color: #737373;
   text-align: center;
 }
 
 a {
-  color: white;
+  color: #6f4a8e;
   font-family: montserrat;
-  text-decoration: none;
 }
 
 main {

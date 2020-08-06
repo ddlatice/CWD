@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Code With Dom `,
     author: {
-      name: `Dominique L. Duncan`,
-      summary: `I hail from ATL. Right now I'm focused on building attractive projects that I would want to use in my everyday life.`,
+      name: `Dominique Duncan`,
+      summary: `Right now I'm focused on building attractive projects that I would want to use in my everyday life.`,
     },
     description: `A coding blog for beginners.`,
     siteUrl: `https://www.codewithdom.com/`,
@@ -61,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Code WIth Dom`,
+        name: `Code With Dom`,
         short_name: `CWD`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
+        icon: `content/assets/my-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

@@ -61,9 +61,10 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>. Check out my personal
-        site {` `}
-        <a href="https://compassionate-lalande-8ab6f5.netlify.app">here</a>.❤️
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        ... You can check out my personal website {` `}
+        <a href="https://compassionate-lalande-8ab6f5.netlify.app">here</a>
+        .💜
       </footer>
     </div>
   )
